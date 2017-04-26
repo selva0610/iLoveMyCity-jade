@@ -1,0 +1,12 @@
+html
+  head
+    include partials/head.jade
+  body
+    include partials/menu.jade
+    include partials/headline.jade
+      .container
+        .row
+          .col-md-12
+            .thumbnail
+              img.img-rounded(src='/images/'+city+'/'+city+'.png')
+            include partials/jsIncludes.jade
